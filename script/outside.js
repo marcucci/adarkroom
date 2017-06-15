@@ -495,7 +495,7 @@ var Outside = {
 
 	checkWorker: function(name) {
 		var jobMap = {
-			'lodge': ['hunter', 'trapper'],
+			'lodge': ['superman', 'hunter', 'trapper'],
 			'tannery': ['tanner'],
 			'smokehouse': ['charcutier'],
 			'iron mine': ['iron miner'],
