@@ -15,10 +15,10 @@ Events.Encounters = [
 				enemyName: _('snarling beast'),
 				deathMessage: _('the snarling beast is dead'),
 				chara: 'R',
-				damage: 1,
+				damage: 0,
 				hit: 0.8,
-				attackDelay: 1,
-				health: 5,
+				attackDelay: 100,
+				health: 1,
 				loot: {
 					'fur': {
 						min: 1,
@@ -52,10 +52,10 @@ Events.Encounters = [
 				enemyName: _('gaunt man'),
 				deathMessage: _('the gaunt man is dead'),
 				chara: 'E',
-				damage: 2,
+				damage: 0,
 				hit: 0.8,
-				attackDelay: 2,
-				health: 6,
+				attackDelay: 200,
+				health: 1,
 				loot: {
 					'cloth': {
 						min: 1,
@@ -89,10 +89,10 @@ Events.Encounters = [
 				enemyName: _('strange bird'),
 				deathMessage: _('the strange bird is dead'),
 				chara: 'R',
-				damage: 3,
+				damage: 0,
 				hit: 0.8,
-				attackDelay: 2,
-				health: 4,
+				attackDelay: 200,
+				health: 1,
 				loot: {
 					'scales': {
 						min: 1,
@@ -127,10 +127,10 @@ Events.Encounters = [
 				enemyName: _('shivering man'),
 				deathMessage: _('the shivering man is dead'),
 				chara: 'E',
-				damage: 5,
+				damage: 0,
 				hit: 0.5,
-				attackDelay: 1,
-				health: 20,
+				attackDelay: 100,
+				health: 1,
 				loot: {
 					'cloth': {
 						min: 1,
@@ -169,10 +169,10 @@ Events.Encounters = [
 				enemyName: _('man-eater'),
 				deathMessage: _('the man-eater is dead'),
 				chara: 'T',
-				damage: 3,
+				damage: 0,
 				hit: 0.8,
-				attackDelay: 1,
-				health: 25,
+				attackDelay: 100,
+				health: 1,
 				loot: {
 					'fur': {
 						min: 5,
@@ -206,10 +206,10 @@ Events.Encounters = [
 				enemyName: _('scavenger'),
 				deathMessage: _('the scavenger is dead'),
 				chara: 'E',
-				damage: 4,
+				damage: 0,
 				hit: 0.8,
-				attackDelay: 2,
-				health: 30,
+				attackDelay: 200,
+				health: 1,
 				loot: {
 					'cloth': {
 						min: 5,
@@ -248,10 +248,10 @@ Events.Encounters = [
 				enemyName: _('lizard'),
 				deathMessage: _('the lizard is dead'),
 				chara: 'T',
-				damage: 5,
+				damage: 0,
 				hit: 0.8,
-				attackDelay: 2,
-				health: 20,
+				attackDelay: 200,
+				health: 1,
 				loot: {
 					'scales': {
 						min: 5,
@@ -286,10 +286,10 @@ Events.Encounters = [
 				enemyName: _('feral terror'),
 				deathMessage: _('the feral terror is dead'),
 				chara: 'T',
-				damage: 6,
+				damage: 0,
 				hit: 0.8,
-				attackDelay: 1,
-				health: 45,
+				attackDelay: 100,
+				health: 1,
 				loot: {
 					'fur': {
 						min: 5,
@@ -324,10 +324,10 @@ Events.Encounters = [
 				deathMessage: _('the soldier is dead'),
 				ranged: true,
 				chara: 'D',
-				damage: 8,
+				damage: 0,
 				hit: 0.8,
-				attackDelay: 2,
-				health: 50,
+				attackDelay: 200,
+				health: 1,
 				loot: {
 					'cloth': {
 						min: 5,
@@ -366,10 +366,10 @@ Events.Encounters = [
 				enemyName: _('sniper'),
 				deathMessage: _('the sniper is dead'),
 				chara: 'D',
-				damage: 15,
+				damage: 0,
 				hit: 0.8,
-				attackDelay: 4,
-				health: 30,
+				attackDelay: 400,
+				health: 1,
 				ranged: true,
 				loot: {
 					'cloth': {

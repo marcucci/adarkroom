@@ -18,17 +18,17 @@ Events.Room = [
 				buttons: {
 					'buyScales': {
 						text: _('buy scales'),
-						cost: { 'fur': 100 },
+						cost: { 'fur': 1 },
 						reward: { 'scales': 1 }
 					},
 					'buyTeeth': {
 						text: _('buy teeth'),
-						cost: { 'fur': 200 },
+						cost: { 'fur': 1 },
 						reward: { 'teeth': 1 }
 					},
 					'buyBait': {
 						text: _('buy bait'),
-						cost: { 'fur': 5 },
+						cost: { 'fur': 1 },
 						reward: { 'bait': 1 },
 						notification: _('traps are more effective with bait.')
 					},
@@ -37,10 +37,10 @@ Events.Room = [
 							return $SM.get('stores.compass', true) < 1;
 						},
 						text: _('buy compass'),
-						cost: { fur: 300, scales: 15, teeth: 5 },
+						cost: { fur: 1, scales: 1, teeth: 1 },
 						reward: { 'compass': 1 },
 						notification: _('the old compass is dented and dusty, but it looks to work.')
-					}, 
+					},
 					'goodbye': {
 						text: _('say goodbye'),
 						nextScene: 'end'
@@ -48,7 +48,7 @@ Events.Room = [
 				}
 			}
 		}
-	}, 
+	},
 	{ /* Noises Outside  --  gain wood/fur */
 		title: _('Noises'),
 		isAvailable: function() {
@@ -201,13 +201,13 @@ Events.Room = [
 				blink: true,
 				buttons: {
 					'50furs': {
-						text: _('give 50'),
-						cost: {fur: 50},
+						text: _('give 1'),
+						cost: {fur: 1},
 						nextScene: { 0.5: 'scales', 0.8: 'teeth', 1: 'cloth' }
 					},
 					'100furs': {
-						text: _('give 100'),
-						cost: {fur: 100},
+						text: _('give 2'),
+						cost: {fur: 2},
 						nextScene: { 0.5: 'teeth', 0.8: 'scales', 1: 'cloth' }
 					},
 					'deny': {
@@ -257,7 +257,7 @@ Events.Room = [
 			}
 		}
 	},
-	
+
 	{ /* Mysterious Wanderer  --  wood gambling */
 		title: _('The Mysterious Wanderer'),
 		isAvailable: function() {
@@ -273,13 +273,13 @@ Events.Room = [
 				blink: true,
 				buttons: {
 					'wood100': {
-						text: _('give 100'),
-						cost: {wood: 100},
+						text: _('give 1'),
+						cost: {wood: 1},
 						nextScene: { 1: 'wood100'}
 					},
 					'wood500': {
-						text: _('give 500'),
-						cost: {wood: 500},
+						text: _('give 2'),
+						cost: {wood: 2},
 						nextScene: { 1: 'wood500' }
 					},
 					'deny': {
@@ -336,7 +336,7 @@ Events.Room = [
 			}
 		}
 	},
-	
+
 	{ /* Mysterious Wanderer  --  fur gambling */
 		title: _('The Mysterious Wanderer'),
 		isAvailable: function() {
@@ -352,13 +352,13 @@ Events.Room = [
 				blink: true,
 				buttons: {
 					'fur100': {
-						text: _('give 100'),
-						cost: {fur: 100},
+						text: _('give 1'),
+						cost: {fur: 1},
 						nextScene: { 1: 'fur100'}
 					},
 					'fur500': {
-						text: _('give 500'),
-						cost: {fur: 500},
+						text: _('give 2'),
+						cost: {fur: 2},
 						nextScene: { 1: 'fur500' }
 					},
 					'deny': {
@@ -415,7 +415,7 @@ Events.Room = [
 			}
 		}
 	},
-	
+
 	{ /* The Scout  --  Map Merchant */
 		title: _('The Scout'),
 		isAvailable: function() {
@@ -432,13 +432,13 @@ Events.Room = [
 				buttons: {
 					'buyMap': {
 						text: _('buy map'),
-						cost: { 'fur': 200, 'scales': 10 },
+						cost: { 'fur': 1, 'scales': 1 },
 						notification: _('the map uncovers a bit of the world'),
 						onChoose: World.applyMap
 					},
 					'learn': {
 						text: _('learn scouting'),
-						cost: { 'fur': 1000, 'scales': 50, 'teeth': 20 },
+						cost: { 'fur': 1, 'scales': 1, 'teeth': 1 },
 						available: function() {
 							return !$SM.hasPerk('scout');
 						},
@@ -454,7 +454,7 @@ Events.Room = [
 			}
 		}
 	},
-	
+
 	{ /* The Wandering Master */
 		title: _('The Master'),
 		isAvailable: function() {
@@ -472,8 +472,8 @@ Events.Room = [
 					'agree': {
 						text: _('agree'),
 						cost: {
-							'cured meat': 100,
-							'fur': 100,
+							'cured meat': 1,
+							'fur': 1,
 							'torch': 1
 						},
 						nextScene: {1: 'agree'}
@@ -527,7 +527,7 @@ Events.Room = [
 			}
 		}
 	},
-		
+
 	{ /* The Sick Man */
 		title: _('The Sick Man'),
 		isAvailable: function() {

@@ -108,15 +108,15 @@ Events.Setpieces = {
 					}
 				}
 			},
-			
+
 			'a1': {
 				combat: true,
 				enemy: 'beast',
 				chara: 'R',
-				damage: 1,
+				damage: 0,
 				hit: 0.8,
 				attackDelay: 1,
-				health: 5,
+				health: 1,
 				notification: _('a startled beast defends its home'),
 				loot: {
 					'fur': {
@@ -258,10 +258,10 @@ Events.Setpieces = {
 				combat: true,
 				enemy: 'beast',
 				chara: 'R',
-				damage: 1,
+				damage: 0,
 				hit: 0.8,
 				attackDelay: 1,
-				health: 5,
+				health: 1,
 				notification: _('a startled beast defends its home'),
 				loot: {
 					'fur': {
@@ -292,10 +292,10 @@ Events.Setpieces = {
 				combat: true,
 				enemy: 'cave lizard',
 				chara: 'R',
-				damage: 3,
+				damage: 0,
 				hit: 0.8,
 				attackDelay: 2,
-				health: 6,
+				health: 1,
 				notification: _('a cave lizard attacks'),
 				loot: {
 					'scales': {
@@ -326,10 +326,10 @@ Events.Setpieces = {
 				combat: true,
 				enemy: 'beast',
 				chara: 'R',
-				damage: 3,
+				damage: 0,
 				hit: 0.8,
 				attackDelay: 2,
-				health: 10,
+				health: 1,
 				notification: _('a large beast charges out of the dark'),
 				loot: {
 					'fur': {
@@ -360,10 +360,10 @@ Events.Setpieces = {
 				combat: true,
 				enemy: 'lizard',
 				chara: 'T',
-				damage: 4,
+				damage: 0,
 				hit: 0.8,
 				attackDelay: 2,
-				health: 10,
+				health: 1,
 				notification: _('a giant lizard shambles forward'),
 				loot: {
 					'scales': {
@@ -538,7 +538,7 @@ Events.Setpieces = {
 					}
 				}
 			},
-			
+
 			'a1': {
 				text: [
 					_("where the windows of the schoolhouse aren't shattered, they're blackened with soot."),
@@ -556,15 +556,15 @@ Events.Setpieces = {
 					}
 				}
 			},
-			
+
 			'a2': {
 				combat: true,
 				enemy: 'thug',
 				chara: 'E',
-				damage: 4,
+				damage: 0,
 				hit: 0.8,
 				attackDelay: 2,
-				health: 30,
+				health: 1,
 				loot: {
 					'cloth': {
 						min: 5,
@@ -656,10 +656,10 @@ Events.Setpieces = {
 				combat: true,
 				enemy: 'scavenger',
 				chara: 'E',
-				damage: 4,
+				damage: 0,
 				hit: 0.8,
 				attackDelay: 2,
-				health: 30,
+				health: 1,
 				loot: {
 					'cloth': {
 						min: 5,
@@ -695,10 +695,10 @@ Events.Setpieces = {
 				combat: true,
 				enemy: 'beast',
 				chara: 'R',
-				damage: 3,
+				damage: 0,
 				hit: 0.8,
 				attackDelay: 1,
-				health: 25,
+				health: 1,
 				loot: {
 					'teeth': {
 						min: 1,
@@ -769,10 +769,10 @@ Events.Setpieces = {
 				combat: true,
 				enemy: 'madman',
 				chara: 'E',
-				damage: 6,
+				damage: 0,
 				hit: 0.3,
 				attackDelay: 1,
-				health: 10,
+				health: 1,
 				loot: {
 					'cloth': {
 						min: 2,
@@ -808,10 +808,10 @@ Events.Setpieces = {
 				combat: true,
 				enemy: 'thug',
 				chara: 'E',
-				damage: 4,
+				damage: 0,
 				hit: 0.8,
 				attackDelay: 2,
-				health: 30,
+				health: 1,
 				loot: {
 					'cloth': {
 						min: 5,
@@ -847,10 +847,10 @@ Events.Setpieces = {
 				combat: true,
 				enemy: 'beast',
 				chara: 'R',
-				damage: 3,
+				damage: 0,
 				hit: 0.8,
 				attackDelay: 1,
-				health: 25,
+				health: 1,
 				loot: {
 					'teeth': {
 						min: 1,
@@ -898,10 +898,10 @@ Events.Setpieces = {
 				combat: true,
 				enemy: 'beast',
 				chara: 'R',
-				damage: 4,
+				damage: 0,
 				hit: 0.8,
 				attackDelay: 1,
-				health: 25,
+				health: 1,
 				loot: {
 					'teeth': {
 						min: 1,
@@ -973,10 +973,10 @@ Events.Setpieces = {
 				combat: true,
 				enemy: 'scavenger',
 				chara: 'E',
-				damage: 5,
+				damage: 0,
 				hit: 0.8,
 				attackDelay: 2,
-				health: 30,
+				health: 1,
 				loot: {
 					'cured meat': {
 						min: 1,
@@ -1012,10 +1012,10 @@ Events.Setpieces = {
 				combat: true,
 				enemy: 'vigilante',
 				chara: 'D',
-				damage: 6,
+				damage: 0,
 				hit: 0.8,
 				attackDelay: 2,
-				health: 30,
+				health: 1,
 				loot: {
 					'cured meat': {
 						min: 1,
@@ -1342,10 +1342,10 @@ Events.Setpieces = {
 				notification: _('a huge lizard scrambles up out of the darkness of an old metro station.'),
 				enemy: 'lizard',
 				chara: 'R',
-				damage: 5,
+				damage: 0,
 				hit: 0.8,
 				attackDelay: 2,
-				health: 20,
+				health: 1,
 				loot: {
 					'scales': {
 						min: 5,
@@ -1381,10 +1381,10 @@ Events.Setpieces = {
 				combat: true,
 				enemy: 'sniper',
 				chara: 'D',
-				damage: 15,
+				damage: 0,
 				hit: 0.8,
 				attackDelay: 4,
-				health: 30,
+				health: 1,
 				ranged: true,
 				loot: {
 					'cured meat': {
@@ -1422,10 +1422,10 @@ Events.Setpieces = {
 				enemy: 'soldier',
 				ranged: true,
 				chara: 'D',
-				damage: 8,
+				damage: 0,
 				hit: 0.8,
 				attackDelay: 2,
-				health: 50,
+				health: 1,
 				loot: {
 					'cured meat': {
 						min: 1,
@@ -1461,10 +1461,10 @@ Events.Setpieces = {
 				combat: true,
 				enemy: 'frail man',
 				chara: 'E',
-				damage: 1,
+				damage: 0,
 				hit: 0.8,
 				attackDelay: 2,
-				health: 10,
+				health: 1,
 				loot: {
 					'cured meat': {
 						min: 1,
@@ -1537,10 +1537,10 @@ Events.Setpieces = {
 				combat: true,
 				enemy: 'old man',
 				chara: 'E',
-				damage: 3,
+				damage: 0,
 				hit: 0.5,
 				attackDelay: 2,
-				health: 10,
+				health: 1,
 				loot: {
 					'cured meat': {
 						min: 1,
@@ -1576,10 +1576,10 @@ Events.Setpieces = {
 				combat: true,
 				enemy: 'thug',
 				chara: 'E',
-				damage: 3,
+				damage: 0,
 				hit: 0.8,
 				attackDelay: 2,
-				health: 30,
+				health: 1,
 				loot: {
 					'steel sword': {
 						min: 1,
@@ -1610,16 +1610,16 @@ Events.Setpieces = {
 					}
 				}
 			},
-			
+
 			'c2': {
 				notification: _('a snarling beast jumps out from behind a car.'),
 				combat: true,
 				enemy: 'beast',
 				chara: 'R',
-				damage: 2,
+				damage: 0,
 				hit: 0.8,
 				attackDelay: 1,
-				health: 30,
+				health: 1,
 				loot: {
 					'meat': {
 						min: 1,
@@ -1650,7 +1650,7 @@ Events.Setpieces = {
 					}
 				}
 			},
-			
+
 			'c3': {
 				text: [
 					_('street above the subway platform is blown away.'),
@@ -1669,7 +1669,7 @@ Events.Setpieces = {
 					}
 				}
 			},
-			
+
 			'c4': {
 				text: [
 					_('looks like a camp of sorts up ahead.'),
@@ -1688,7 +1688,7 @@ Events.Setpieces = {
 					}
 				}
 			},
-			
+
 			'c5': {
 				text: [
 					_('more voices can be heard ahead.'),
@@ -1705,7 +1705,7 @@ Events.Setpieces = {
 					}
 				}
 			},
-			
+
 			'c6': {
 				text: [
 					_('the sound of gunfire carries on the wind.'),
@@ -1722,7 +1722,7 @@ Events.Setpieces = {
 					}
 				}
 			},
-			
+
 			'c7': {
 				text: [
                     /// TRANSLATORS : squatters occupy abandoned dwellings they don't own.
@@ -1740,7 +1740,7 @@ Events.Setpieces = {
 					}
 				}
 			},
-			
+
 			'c8': {
 				text: [
 					_('an improvised shop is set up on the sidewalk.'),
@@ -1786,7 +1786,7 @@ Events.Setpieces = {
 					}
 				}
 			},
-			
+
 			'c9': {
 				text: [
 					_('strips of meat hang drying by the side of the street.'),
@@ -1812,7 +1812,7 @@ Events.Setpieces = {
 					}
 				}
 			},
-			
+
 			'c10': {
 				text: [
 					_('someone has locked and barricaded the door to this operating theatre.')
@@ -1828,17 +1828,17 @@ Events.Setpieces = {
 					}
 				}
 			},
-			
+
 			'c11': {
 				notification: _('a tribe of elderly squatters is camped out in this ward.'),
 				combat: true,
 				enemy: 'squatters',
 				plural: true,
 				chara: 'EEE',
-				damage: 2,
+				damage: 0,
 				hit: 0.7,
 				attackDelay: 0.5,
-				health: 40,
+				health: 1,
 				loot: {
 					'cured meat': {
 						min: 1,
@@ -1869,17 +1869,17 @@ Events.Setpieces = {
 					}
 				}
 			},
-			
+
 			'c12': {
 				notification: _('a pack of lizards rounds the corner.'),
 				combat: true,
 				enemy: 'lizards',
 				plural: true,
 				chara: 'RRR',
-				damage: 4,
+				damage: 0,
 				hit: 0.7,
 				attackDelay: 0.7,
-				health: 30,
+				health: 1,
 				loot: {
 					'meat': {
 						min: 3,
@@ -1910,7 +1910,7 @@ Events.Setpieces = {
 					}
 				}
 			},
-			
+
 			'c13': {
 				text: [
 					_('strips of meat are hung up to dry in this ward.')
@@ -1935,16 +1935,16 @@ Events.Setpieces = {
 					}
 				}
 			},
-						
+
 			'd1': {
 				notification: _('a large bird nests at the top of the stairs.'),
 				combat: true,
 				enemy: 'bird',
 				chara: 'R',
-				damage: 5,
+				damage: 0,
 				hit: 0.7,
 				attackDelay: 1,
-				health: 45,
+				health: 1,
 				loot: {
 					'meat': {
 						min: 5,
@@ -1965,7 +1965,7 @@ Events.Setpieces = {
 					}
 				}
 			},
-			
+
 			'd2': {
 				text: [
 					_("the debris is denser here."),
@@ -2006,17 +2006,17 @@ Events.Setpieces = {
 					}
 				}
 			},
-			
+
 			'd3': {
 				notification: _('a swarm of rats rushes up the tunnel.'),
 				combat: true,
 				enemy: 'rats',
 				plural: true,
 				chara: 'RRR',
-				damage: 1,
+				damage: 0,
 				hit: 0.8,
 				attackDelay: 0.25,
-				health: 60,
+				health: 1,
 				loot: {
 					'fur': {
 						min: 5,
@@ -2042,16 +2042,16 @@ Events.Setpieces = {
 					}
 				}
 			},
-			
+
 			'd4': {
 				notification: _('a large man attacks, waving a bayonet.'),
 				combat: true,
 				enemy: 'veteran',
 				chara: 'D',
-				damage: 6,
+				damage: 0,
 				hit: 0.8,
 				attackDelay: 2,
-				health: 45,
+				health: 1,
 				loot: {
 					'bayonet': {
 						min: 1,
@@ -2077,17 +2077,17 @@ Events.Setpieces = {
 					}
 				}
 			},
-			
+
 			'd5': {
 				notification: _('a second soldier opens fire.'),
 				combat: true,
 				enemy: 'soldier',
 				ranged: true,
 				chara: 'D',
-				damage: 8,
+				damage: 0,
 				hit: 0.8,
 				attackDelay: 2,
-				health: 50,
+				health: 1,
 				loot: {
 					'cured meat': {
 						min: 1,
@@ -2118,17 +2118,17 @@ Events.Setpieces = {
 					}
 				}
 			},
-			
+
 			'd6': {
 				notification: _('a masked soldier rounds the corner, gun drawn'),
 				combat: true,
 				enemy: 'commando',
 				chara: 'D',
 				ranged: true,
-				damage: 3,
+				damage: 0,
 				hit: 0.9,
 				attackDelay: 2,
-				health: 55,
+				health: 1,
 				loot: {
 					'rifle': {
 						min: 1,
@@ -2159,17 +2159,17 @@ Events.Setpieces = {
 					}
 				}
 			},
-			
+
 			'd7': {
 				notification: _('the crowd surges forward.'),
 				combat: true,
 				enemy: 'squatters',
 				plural: true,
 				chara: 'EEE',
-				damage: 2,
+				damage: 0,
 				hit: 0.7,
 				attackDelay: 0.5,
-				health: 40,
+				health: 1,
 				loot: {
 					'cloth': {
 						min: 1,
@@ -2195,16 +2195,16 @@ Events.Setpieces = {
 					}
 				}
 			},
-			
+
 			'd8': {
 				notification: _('a youth lashes out with a tree branch.'),
 				combat: true,
 				enemy: 'youth',
 				chara: 'E',
-				damage: 2,
+				damage: 0,
 				hit: 0.7,
 				attackDelay: 1,
-				health: 45,
+				health: 1,
 				loot: {
 					'cloth': {
 						min: 1,
@@ -2230,16 +2230,16 @@ Events.Setpieces = {
 					}
 				}
 			},
-			
+
 			'd9': {
 				notification: _('a squatter stands firmly in the doorway of a small hut.'),
 				combat: true,
 				enemy: 'squatter',
 				chara: 'E',
-				damage: 3,
+				damage: 0,
 				hit: 0.8,
 				attackDelay: 2,
-				health: 20,
+				health: 1,
 				loot: {
 					'cloth': {
 						min: 1,
@@ -2265,16 +2265,16 @@ Events.Setpieces = {
 					}
 				}
 			},
-			
+
 			'd10': {
 				notification: _('behind the door, a deformed figure awakes and attacks.'),
 				combat: true,
 				enemy: 'deformed',
 				chara: 'T',
-				damage: 8,
+				damage: 0,
 				hit: 0.6,
 				attackDelay: 2,
-				health: 40,
+				health: 1,
 				loot: {
 					'cloth': {
 						min: 1,
@@ -2305,17 +2305,17 @@ Events.Setpieces = {
 					}
 				}
 			},
-			
+
 			'd11': {
 				notification: _('as soon as the door is open a little bit, hundreds of tentacles erupt.'),
 				combat: true,
 				enemy: 'tentacles',
 				plural: true,
 				chara: 'TTT',
-				damage: 2,
+				damage: 0,
 				hit: 0.6,
 				attackDelay: 0.5,
-				health: 60,
+				health: 1,
 				loot: {
 					'meat': {
 						min: 10,
@@ -2331,7 +2331,7 @@ Events.Setpieces = {
 					}
 				}
 			},
-		
+
 			'end1': {
 				text: [
 					_('bird must have liked shiney things.'),
@@ -2366,7 +2366,7 @@ Events.Setpieces = {
 					}
 				}
 			},
-			
+
 			'end2': {
 				text: [
 					_('not much here.'),
@@ -2396,7 +2396,7 @@ Events.Setpieces = {
 					}
 				}
 			},
-			
+
 			'end3': {
 				text: [
                     /// TRANSLATORS : a platform in the subway
@@ -2443,7 +2443,7 @@ Events.Setpieces = {
 					}
 				}
 			},
-			
+
 			'end4': {
 				text: [
 					_('the small military outpost is well supplied.'),
@@ -2479,7 +2479,7 @@ Events.Setpieces = {
 					}
 				}
 			},
-			
+
 			'end5': {
 				text: [
 					_('searching the bodies yields a few supplies.'),
@@ -2520,7 +2520,7 @@ Events.Setpieces = {
 					}
 				}
 			},
-			
+
 			'end6': {
 				text: [
 					_('the small settlement has clearly been burning a while.'),
@@ -2556,7 +2556,7 @@ Events.Setpieces = {
 					}
 				}
 			},
-			
+
 			'end7': {
 				text: [
 					_('the remaining settlers flee from the violence, their belongings forgotten.'),
@@ -2591,7 +2591,7 @@ Events.Setpieces = {
 					}
 				}
 			},
-			
+
 			'end8': {
 				text: [
 					_('the young settler was carrying a canvas sack.'),
@@ -2627,7 +2627,7 @@ Events.Setpieces = {
 					}
 				}
 			},
-			
+
 			'end9': {
 				text: [
 					_('inside the hut, a child cries.'),
@@ -2668,7 +2668,7 @@ Events.Setpieces = {
 					}
 				}
 			},
-			
+
 			'end10': {
 				text: [
 					_('the stench of rot and death fills the operating theatres.'),
@@ -2709,7 +2709,7 @@ Events.Setpieces = {
 					}
 				}
 			},
-			
+
 			'end11': {
 				text: [
 					_('a pristine medicine cabinet at the end of a hallway.'),
@@ -2744,7 +2744,7 @@ Events.Setpieces = {
 					}
 				}
 			},
-			
+
 			'end12': {
 				text: [
 					_('someone had been stockpiling loot here.')
@@ -2793,7 +2793,7 @@ Events.Setpieces = {
 					}
 				}
 			},
-			
+
 			'end13': {
 				text: [
 					_('the tentacular horror is defeated.'),
@@ -2838,7 +2838,7 @@ Events.Setpieces = {
 					}
 				}
 			},
-			
+
 			'end14': {
 				text: [
                     /// TRANSLATORS : warped means extremely disfigured.
@@ -2884,7 +2884,7 @@ Events.Setpieces = {
 					}
 				}
 			},
-			
+
 			'end15': {
 				text: [
 					_('the old man had a small cache of interesting items.')
@@ -3012,10 +3012,10 @@ Events.Setpieces = {
 				combat: true,
 				enemy: 'squatter',
 				chara: 'E',
-				damage: 3,
+				damage: 0,
 				hit: 0.8,
 				attackDelay: 2,
-				health: 10,
+				health: 1,
 				notification: _('a man charges down the hall, a rusty blade in his hand'),
 				onLoad: function() {
 					World.markVisited(World.curPos[0], World.curPos[1]);
@@ -3177,10 +3177,10 @@ Events.Setpieces = {
 				enemy: 'soldier',
 				ranged: true,
 				chara: 'D',
-				damage: 8,
+				damage: 0,
 				hit: 0.8,
 				attackDelay: 2,
-				health: 50,
+				health: 1,
 				loot: {
 					'cured meat': {
 						min: 1,
@@ -3217,10 +3217,10 @@ Events.Setpieces = {
 				enemy: 'soldier',
 				ranged: true,
 				chara: 'D',
-				damage: 8,
+				damage: 0,
 				hit: 0.8,
 				attackDelay: 2,
-				health: 50,
+				health: 1,
 				loot: {
 					'cured meat': {
 						min: 1,
@@ -3256,10 +3256,10 @@ Events.Setpieces = {
 				combat: true,
 				enemy: 'veteran',
 				chara: 'D',
-				damage: 10,
+				damage: 0,
 				hit: 0.8,
 				attackDelay: 2,
-				health: 65,
+				health: 1,
 				loot: {
 					'bayonet': {
 						min: 1,
@@ -3325,10 +3325,10 @@ Events.Setpieces = {
 				combat: true,
 				enemy: 'man',
 				chara: 'E',
-				damage: 3,
+				damage: 0,
 				hit: 0.8,
 				attackDelay: 2,
-				health: 10,
+				health: 1,
 				loot: {
 					'cured meat': {
 						min: 1,
@@ -3359,10 +3359,10 @@ Events.Setpieces = {
 				combat: true,
 				enemy: 'man',
 				chara: 'E',
-				damage: 3,
+				damage: 0,
 				hit: 0.8,
 				attackDelay: 2,
-				health: 10,
+				health: 1,
 				loot: {
 					'cured meat': {
 						min: 1,
@@ -3393,10 +3393,10 @@ Events.Setpieces = {
 				combat: true,
 				enemy: 'chief',
 				chara: 'D',
-				damage: 5,
+				damage: 0,
 				hit: 0.8,
 				attackDelay: 2,
-				health: 20,
+				health: 1,
 				loot: {
 					'cured meat': {
 						min: 5,
@@ -3469,10 +3469,10 @@ Events.Setpieces = {
 				combat: true,
 				enemy: 'beastly matriarch',
 				chara: 'T',
-				damage: 4,
+				damage: 0,
 				hit: 0.8,
 				attackDelay: 2,
-				health: 10,
+				health: 1,
 				loot: {
 					'teeth': {
 						min: 5,
@@ -3519,7 +3519,7 @@ Events.Setpieces = {
 			}
 		}
 	},
-	
+
 	"cache": { /* Cache - contains some of supplies from previous game */
 		title: _('A Destroyed Village'),
 		scenes: {

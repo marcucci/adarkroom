@@ -5,7 +5,7 @@ Events.Outside = [
 	{ /* Ruined traps */
 	title: _('A Ruined Trap'),
 		isAvailable: function() {
-			return Engine.activeModule == Outside && $SM.get('game.buildings["trap"]', true) > 0;
+			return Engine.activeModule == false && Outside && $SM.get('game.buildings["trap"]', true) > 0;
 		},
 		scenes: {
 			'start': {
@@ -68,7 +68,7 @@ Events.Outside = [
 	{ /* Hut fire */
 		title: _('Fire'),
 		isAvailable: function() {
-			return Engine.activeModule == Outside && $SM.get('game.buildings["hut"]', true) > 0 && $SM.get('game.population', true) > 5;
+			return Engine.activeModule == false && Outside && $SM.get('game.buildings["hut"]', true) > 0 && $SM.get('game.population', true) > 5;
 		},
 		scenes: {
 			'start': {
@@ -94,7 +94,7 @@ Events.Outside = [
 	{ /* Sickness */
 		title: _('Sickness'),
 		isAvailable: function() {
-			return Engine.activeModule == Outside && $SM.get('game.population', true) > 10 && $SM.get('game.population', true) < 50 && $SM.get('stores.medicine', true) > 0;
+			return Engine.activeModule == false && Outside && $SM.get('game.population', true) > 10 && $SM.get('game.population', true) < 50 && $SM.get('stores.medicine', true) > 0;
 		},
 		scenes: {
 			'start': {
@@ -148,11 +148,11 @@ Events.Outside = [
 			}
 		}
 	},
-		
+
 	{ /* Plague */
 		title: _('Plague'),
 		isAvailable: function() {
-			return Engine.activeModule == Outside && $SM.get('game.population', true) > 50 && $SM.get('stores.medicine', true) > 0;
+			return Engine.activeModule == false && Outside && $SM.get('game.population', true) > 50 && $SM.get('stores.medicine', true) > 0;
 		},
 		scenes: {
 			'start': {
@@ -223,7 +223,7 @@ Events.Outside = [
 	{ /* Beast attack */
 		title: _('A Beast Attack'),
 		isAvailable: function() {
-			return Engine.activeModule == Outside && $SM.get('game.population', true) > 0;
+			return Engine.activeModule == false && Outside && $SM.get('game.population', true) > 0;
 		},
 		scenes: {
 			'start': {
@@ -257,7 +257,7 @@ Events.Outside = [
 	{ /* Soldier attack */
 		title: _('A Military Raid'),
 		isAvailable: function() {
-			return Engine.activeModule == Outside && $SM.get('game.population', true) > 0 && $SM.get('game.cityCleared');
+			return Engine.activeModule == false && Outside && $SM.get('game.population', true) > 0 && $SM.get('game.cityCleared');
 		},
 		scenes: {
 			'start': {
@@ -275,7 +275,7 @@ Events.Outside = [
 					bullets: 10,
 					'cured meat': 50
 				},
-				
+
 				blink: true,
 				buttons: {
 					'end': {

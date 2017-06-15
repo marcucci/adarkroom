@@ -5,7 +5,7 @@ Events.Global = [
 	{ /* The Thief */
 		title: _('The Thief'),
 		isAvailable: function() {
-			return (Engine.activeModule == Room || Engine.activeModule == Outside) && $SM.get('game.thieves') == 1;
+			return (Engine.activeModule == Room || Engine.activeModule == Outside) && false && $SM.get('game.thieves') == 1;
 		},
 		scenes: {
 			'start': {
