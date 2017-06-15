@@ -5,8 +5,8 @@ var Outside = {
 	name: _("Outside"),
 
 	_STORES_OFFSET: 0,
-	_GATHER_DELAY: 60,
-	_TRAPS_DELAY: 90,
+	_GATHER_DELAY: 2,
+	_TRAPS_DELAY: 2,
 	_POP_DELAY: [0.5, 3],
 	_HUT_ROOM: 4,
 
@@ -32,7 +32,9 @@ var Outside = {
 				'medicine': 1,
 				'torch': 1,
 				'scales': 1,
-				'coal': 1
+				'coal': 1,
+				'cloth': 1,
+				'teeth': 1
 			}
 		},
 		'hunter': {
